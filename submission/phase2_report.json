@@ -1,0 +1,28 @@
+{
+  "phase": "2",
+  "environment": {"colab": true},
+  "attention": {
+    "naive_ms": 269.435,
+    "vectorized_ms": 1.12,
+    "speedup": 240.57
+  },
+  "threads": {
+    "1": 2456.562,
+    "2": 2710.899,
+    "4": 3032.42,
+    "8": 2598.07
+  },
+  "devices": {
+    "cpu_ms": 468916.8,
+    "gpu_ms": 14491.9
+  },
+  "training": {
+    "steps": 2000,
+    "final_loss": 1.449,
+    "param_count": 4935680
+  },
+  "sample": "\nWith is did\ufffdor chanque in glossest thee:\nOur we arments of digs the wadrants;\nWhiler upon quitly their scoveicn,\nOr ran firly four stee for thy words,\nWhich's he drust with thanks all in Geon Lad,\nBut",
+  "model": {
+    "gcs_url": "https://storage.googleapis.com/project-d6e19430-0553-4179-aec-eurecomgpt/model.safetensors"
+  }
+}
